@@ -4,6 +4,18 @@ This is a pytorch implementation of the following paper [[NeurIPS]](https://open
 
 Please read license.txt before reading or using the files.  
 
+# Running Experiments
+
+The basic command structure is:
+```bash
+python main.py --dataset cifar100 --model rn50 --seed 0
+```
+
+To aggregate the experimental results, use the following command:
+```bash
+python collect_results.py --dir save/
+```
+
 # Citation
 
 ```
@@ -15,4 +27,5 @@ Please read license.txt before reading or using the files.
     year={2025},
     url={https://openreview.net/forum?id=kdHz4y1ADc}
 }
+
 ```
