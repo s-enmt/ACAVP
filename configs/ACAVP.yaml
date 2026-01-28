@@ -1,0 +1,9 @@
+hflip: True
+randcrop: True
+trivialaugment: True
+scale_init: 0.73
+align_corners: False
+theta_range: 0.1
+sh_range: 0.1
+t_range: 0.05
+sigma_range: 6.0
